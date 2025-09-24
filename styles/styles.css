@@ -166,6 +166,7 @@ p {
 
 .section-2__container:hover {
     transform: scale(1.1);
+    
 }
 
 
@@ -178,10 +179,14 @@ button {
     border-radius: 5px solid rgb(201, 194, 174); 
     padding: 10px 20px;
     border-radius: 5px;
-
-
 }
 
+
+.section__container button:hover, .section-2__container button:hover {
+    background-color: rgb(201, 194, 174);
+    color: rgb(29, 14, 43);
+    transform: scale(1.1);
+}
 
 
 
