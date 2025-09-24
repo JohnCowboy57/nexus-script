@@ -363,3 +363,14 @@ button {
 }
 
 
+.footer-container {
+    border-top: 2px solid rgb(201, 194, 174);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer__text {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(201, 194, 174);
+}
