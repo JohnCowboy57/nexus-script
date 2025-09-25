@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -14,14 +13,14 @@ html {
 
 
 
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     color: white;
     max-width: 100%;
     margin: 0px auto;
-    background-color:rgb(27, 8, 13);
-    
-    
+    background-color:rgb(9, 2, 10);
+    font-weight: 400;
 }
 
 
@@ -49,8 +48,7 @@ header {
     font-weight: 600;
     text-transform: uppercase;
     align-items: center;
-    
-
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .navigation__item a:hover {
@@ -99,12 +97,26 @@ main video {
 h1 {
     margin-bottom: 10px;
     font-size: 50px;
-    font-weight: 600;
-    
+    font-weight: 700;
+    font-family: 'Orbitron', monospace;
+    text-shadow: 0 0 20px rgba(201, 194, 174, 0.5);
 }
-p {
-    font-size: 20px;
+h2 {
+    font-family: 'Exo 2', sans-serif;
     font-weight: 600;
+    color: #c9c2ae;
+}
+
+h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+h4 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    color: #c9c2ae;
 }
 
 .section-container {
@@ -114,7 +126,7 @@ p {
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+  
     
 
 }
@@ -170,15 +182,63 @@ p {
 }
 
 
+.video-section__container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid rgb(201, 194, 174);
+    padding-bottom: 100px;
+    
+    
+
+
+
+}
+
+.video-section__container__text {
+
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(184, 198, 216);
+  
+}
+
+
+
+.video-section__container video {
+    max-width: 900px;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+
+
+.video-section__container__video {
+    border: 3px solid rgb(201, 194, 174);
+    max-width: 900px;
+    max-height: 500px;
+    
+}
+
+
+
+
 
 button {
     margin-top: 20px;
     background-color: rgb(29, 14, 43);
-    font-family: 'Zalando Sans Expanded', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     color: white;
     border-radius: 5px solid rgb(201, 194, 174); 
     padding: 10px 20px;
     border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 }
 
 
@@ -367,6 +427,7 @@ button {
     border-top: 2px solid rgb(201, 194, 174);
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .footer__text {
