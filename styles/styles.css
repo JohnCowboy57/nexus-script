@@ -119,67 +119,38 @@ h4 {
     color: #c9c2ae;
 }
 
+
+
+
+
+
 .section-container {
-    gap: 40px;
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
+    border: 2px solid rgb(201, 194, 174);
   
     
-
-}
-
-.pricing__title {
-    text-align: center;
-    font-size: 50px;
-    font-weight: 600;
-    margin-top: 100px;
-}
-
-
-.section__container {
-    flex: 1;              /* Равномерно распределяет ширину */
-    max-width: 500px;     /* Ограничивает максимальную ширину */
-    min-width: 500px;     /* Ограничивает минимальную ширину */
-    height: 500px;        /* Фиксированная высота */
-    line-height: 1.5;   
-    border: 5px solid rgb(201, 194, 174);
-    border-radius: 10px;
-    padding: 20px 20px;
-    box-shadow: 0 8px 25px rgba(201, 194, 174, 0.2);
-    background-color: rgba(201, 194, 174, 0.05); /* Легкий фон */
-    transition: transform 0.3s ease;
-    text-align: center;
-    transition: all 0.3s ease
-}
-   
-
-.section-2__container {
-    flex: 1;              /* Равномерно распределяет ширину */
-    max-width: 500px;     /* Ограничивает максимальную ширину */
-    min-width: 500px;     /* Ограничивает минимальную ширину */
-    height: 500px;        /* Фиксированная высота */
-    line-height: 1.5;
-    border: 5px solid rgb(201, 194, 174);
-    border-radius: 10px;
-    padding: 20px 20px;
-    box-shadow: 0 8px 25px rgba(201, 194, 174, 0.2);
-    background: rgba(201, 194, 174, 0.05); /* Легкий фон */
-    transition: transform 0.3s ease;
-    text-align: center;
-    transition: all 0.3s ease
-}
-
-.section__container:hover {
-    transform: scale(1.1);
-}
-
-.section-2__container:hover {
-    transform: scale(1.1);
     
 }
+
+
+.section__container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+
+
+.pricing__title-h1 {
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 20px;
+  
+}
+
+
+
 
 
 .video-section__container {
@@ -190,7 +161,7 @@ h4 {
     align-items: center;
     border-bottom: 2px solid rgb(201, 194, 174);
     padding-bottom: 100px;
-    
+    margin: 20px 20px
     
 
 
@@ -204,7 +175,31 @@ h4 {
     font-weight: 600;
     color: rgb(184, 198, 216);
   
+   
+   
+    
+  
 }
+
+
+.video-section__container__text p {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(184, 198, 216);
+    text-align: center;
+}
+
+
+.video-section__container__text h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+
+
+
 
 
 
@@ -212,6 +207,7 @@ h4 {
     max-width: 900px;
     max-height: 500px;
     object-fit: cover;
+    
 }
 
 
@@ -219,7 +215,7 @@ h4 {
 .video-section__container__video {
     border: 3px solid rgb(201, 194, 174);
     max-width: 900px;
-    max-height: 500px;
+    max-height: 505px;
     
 }
 
@@ -239,35 +235,27 @@ button {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-}
 
 
-.section__container button:hover, .section-2__container button:hover {
-    background-color: rgb(201, 194, 174);
-    color: rgb(29, 14, 43);
-    transform: scale(1.1);
-}
-
-
-
-
-.section img {
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
-}
-
-.section-2 img {
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
-}
 
 
 .pricing {
-  border-bottom: 2px solid rgb(201, 194, 174);
-  padding-bottom: 100px;
+  margin: 100px;
+display: flex;
+justify-content: space-around;
+
+border-bottom: 2px solid rgb(201, 194, 174);
+padding-bottom: 100px;
+  
 }
+
+.pricing__container {
+  align-items: center;
+  text-align: center;
+   
+}
+
+
 
 
 
@@ -435,3 +423,4 @@ button {
     font-weight: 600;
     color: rgb(201, 194, 174);
 }
+
